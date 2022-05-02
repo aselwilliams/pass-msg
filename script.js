@@ -1,29 +1,29 @@
-const submitBtn=document.querySelector('#submit-btn');
-const inputTxt=document.querySelector('#input-text');
-const outputTxt=document.querySelector('#output-text');
-let divEl=document.querySelector('.lower');
+const submitBtn = document.querySelector('#submit-btn');
+const inputTxt = document.querySelector('#input-text');
+const outputTxt = document.querySelector('#output-text');
+let divEl = document.querySelector('.lower');
 
 function logMsg() {
-   inputValue=inputTxt.value;
+   inputValue = inputTxt.value;
 
-    outputTxt.innerText=inputValue;  
+    outputTxt.innerText = inputValue;  
 
-   if(inputValue!==''){  
+   if(inputValue!=='') {  
     inputTxt.value="";
    }
 
-   if(inputValue==='') {
+   if(inputValue === '') {
       const popUp=document.createElement('pre');
       popUp.setAttribute('class','red-msg');
       
       // divEl=popUp.parentNode;
       divEl.appendChild(popUp);
       console.log(popUp)
-      popUp.innerText='Please Enter A Value To Pass';
+      popUp.innerText = 'Please Enter A Value To Pass';
 
-      setTimeout(function(){
-         popUp.style.display="none";
-      },2000)
+      setTimeout(function() {
+         popUp.style.display = "none";
+      }, 2000)
    }   
 }
 

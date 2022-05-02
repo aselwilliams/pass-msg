@@ -1,4 +1,4 @@
-.container{
+.container {
     background-color: rgb(123, 194, 238);
     margin: 0 auto;
     width: 100vw;
@@ -7,7 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 5px;
 }
-.wrapper{
+
+.wrapper {
     background-color: rgb(215, 218, 223);
     padding: 10px;
     width: 60%;
@@ -16,19 +17,23 @@
     left: 20%;
     overflow-y: auto; 
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
 }
-h4{
+
+h4 {
     font-weight: lighter;
     margin-top: 10px;
 }
-#input-text{
+
+#input-text {
     padding: 5px;
     margin: 0 5px;
 }
-#submit-btn{
+
+#submit-btn {
     border: 1px solid rgb(123, 194, 238);
     color: white;
     border-radius: 3px;
@@ -38,15 +43,18 @@ h4{
     margin: 8px auto;
     cursor: pointer;
 }
-#output-text{
+
+#output-text {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color:rgb(123, 194, 238);
 }
-.lower{
+
+.lower {
     height: 50px;
 }
-.red-msg{
+
+.red-msg {
     background-color: pink;
     color: maroon;
     padding: 10px;
